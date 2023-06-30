@@ -1,0 +1,166 @@
+body {
+  max-width: 1366px;
+  max-height: 768px;
+  margin: 0 auto;
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  background-color: rgb(17, 36, 43);
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#titulo {
+  color: rgb(238, 233, 211);
+  text-align: center;
+  line-height: 50px;
+  margin: 0;
+  cursor: default;
+}
+
+.menu {
+  background-color: rgb(241, 241, 241);
+  height: 0;
+  width: 0;
+  position: fixed;
+  top: 16px;
+  left: 5px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: rgb(238, 233, 211);
+}
+
+.menu a:hover {
+  background-color: rgb(57, 83, 93);
+  padding: 3px;
+}
+
+#corpo {
+  display: grid;
+  place-items: center;
+}
+
+#img-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(161, 161, 152);
+  border: 3px solid rgb(17, 36, 43);
+  width: 800px;
+  cursor: default;
+}
+
+#corpo img {
+  width: 280px;
+  border-radius: 500px;
+  margin-top: 80px;
+  border: 3px solid rgb(17, 36, 43);
+  margin-bottom: 5px;
+}
+
+#corpo img:hover {
+  padding: 10px;
+  border-radius: 0;
+  width: 310px;
+}
+
+#habilidades {
+  width: 500px;
+  align-self: flex-end;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box aside , article {
+  margin-top: 20px;
+}
+
+#bg-resumo {
+  background-color: rgb(213, 216, 209);
+  border: 3px solid rgb(17, 36, 43);
+  width: 800px;
+}
+
+.lado-esquerdo {
+  font-family: sans-serif;
+  float: left;
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+.lado-direito {  font-family: monospace;
+  float: right;
+  align-self: flex-start;
+  margin-right: 20px;
+}
+
+.lado-direito p {  max-height: 305px;
+  overflow: auto;
+  font-weight: 600;
+}
+
+.text , .text-title {  text-align: center;
+  width: 300px;
+}
+
+.text-title {
+  background-color: rgb(69, 114, 131);
+  font-weight: 900;
+  border-radius: 10px;
+  cursor: default;
+  color: rgb(210, 179, 64);
+}
+
+.text {
+  border-radius: 15px;
+  color: rgb(92, 92, 81);
+  border-left: 2px solid rgb(17, 36, 43);
+  border-right: 2px solid rgb(17, 36, 43);
+}
+
+.text-title:hover , .text:hover {
+  padding: 4px;
+}
+
+#rodape {
+  display: flex;
+  background-color: rgb(17, 36, 43);
+  height: 40px;
+  color: rgb(238, 233, 211);
+  bottom: 0;
+  justify-content: baseline;
+}
+
+#rodape a {
+  color: antiquewhite;
+}
+
+#msg {
+  margin-right: 700px;
+  font-weight: 300;
+  font-family: sans-serif;
+  font-size: 14px;
+}

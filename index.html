@@ -1,42 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfoil</title>
-</head>
-<body style="background-color: azure;">
-    <h2>Índice</h2>
-    <ul>
-        <li><a href="#sobre">Sobre Mim</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#foto">Foto</a></li>
-        <li><a href="#blog">Blog que eu gosto</a></li>
-    </ul>
 
-    <h1 id="sobre">Sobre Mim</h1>
-    <div>
-        <img src="imgs/retrato.jpeg" alt="Foto de rosto do Carlos Bueno" id="foto" width="140px">
-    </div>
-    <div>
-        <p>
-            <strong><em>Brasileiro</em></strong> morador de <strong><em>Rio Claro</em></strong> no interior do estado de <strong><em>São Paulo</em></strong>,<br>
-            apaixonado por tecnologia, e estudante de desenvolvimento web na <br> <a href="betrybe.com">Trybe.</a>
-        Gosto de jogos, pescar, ler e assistir filme no tempo livre.
-    </p>
-    </div>
-    <h2 id="habilidades">Habilidades</h2>
-    <ul>
-        <li><strong>Paciente</strong></li>
-        <li><strong>Focado</strong></li>
-        <li><strong>Comunicativo</strong></li>
-        <li><strong>Participativo</strong></li>
-    </ul>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>T35- Lessons Learned</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
 
-    <h2>Links</h2>
-    <p>
-        <a href="https://diolinux.com.br/" target="_blank" id="blog">Blog que eu gosto</a>
-    </p>
+    <body>
+        <header>
+            <div id="cabecalho">
+                <div>
+                    <h1 id="titulo">Bem vindo ao primeiro projeto!</a></h1>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#resumo">Sobre</a></li>
+                        <li><a href="#artigo">Artigo</a></li>
+                        <li><a href="#habilidades">Skills</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
 
-</body>
+        <main>
+            <section id="corpo">
+                <div class="box">
+                    <div id="img-table">
+                        <img src="imgs/portrait.jpeg" alt="Foto de rosto do Carlos Bueno" id="minha_foto">
+                        <table id="habilidades">
+                            <tr>
+                                <td>
+                                <ol id="licoes_aprendidas">
+                                    <h2>O que aprendi</h2>
+                                    <li>Sobre soft skills</li>
+                                    <li>Unix</li>
+                                    <li>Shell</li>
+                                    <li>Git</li>
+                                    <li>GitHub</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Slack</li>
+                                    <li>Zoom</li>
+                                    <li>HTML Semântico</li>
+                                </ol>
+                                </td>
+                                <td>
+                                    <ul id="licoes_a_aprender">
+                                        <h2>Ainda vou aprender</h2>
+                                        <li>JavaScript</li>
+                                        <li>Dom</li>
+                                        <li>React</li>
+                                        <li>Docker</li>
+                                        <li>SQL</li>
+                                        <li>Node.js</li>
+                                        <li>C#</li>
+                                        <li>C++</li>
+                                        <li>Java</li>
+                                        <li>Python</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="bg-resumo">
+                        <aside class="lado-esquerdo" id="resumo">
+                            <h2 class="text-title">Sobre mim</h2>
+                            <p class="text">Sou o Carlos, 26 anos, adoro pescar, ver filmes, assistir videos, e ler no meu tempo livre. Sou eclético para musicas</p>
+                        </aside>
+                        <article class="lado-direito" id="artigo">
+                            <h2 class="text-title">Eu Tryber</h3>
+                                <p class="text">Tenho aprendido sobre softskill, coisa que não sabia o que era, e incrivelmente ja tinha algumas. O aprendizado de hardskill esta fluindo bem melhor do que era antes quando estava aprendendo sozinho</p>
+                                </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="rodape">
+            <p id="msg">"Memento mori, memento vivere."</p>
+            <p>&copy; 2023. Desenvolvido por
+                <a href="https://github.com/CarlosBuen0" target="_blank" rel="GitHub">Carlos Bueno</a>
+            </p>
+        </footer>
+    </body>
+
 </html>
